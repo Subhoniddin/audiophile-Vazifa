@@ -8,6 +8,7 @@
 .nav .nav-logo {
     width: 143px;
     height: 25px;
+    font-size: 2rem;
     color: var(--white);
 }
 
@@ -34,9 +35,13 @@
     height: 20px;
 }
 
-
-.header .underLine {
+.underLine {
    width: 100%;
    height: 1px;
-   background: red;
+   background: var(--white);
+   opacity: 20%;
+}
+
+.nav .nav-list .active {
+    color: var(--orange);
 }

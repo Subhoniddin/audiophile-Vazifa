@@ -7,7 +7,7 @@ function Header(props ) {
   
   return (
     <header className={props.bgColor}>
-       <div className='container'>
+       <div className='container h-full'>
           <Navbar/>
           {props.children}
        </div>

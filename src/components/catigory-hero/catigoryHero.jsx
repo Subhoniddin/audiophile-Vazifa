@@ -1,8 +1,10 @@
 import './catigoryHero.css'
 
-function CatigoryHero() {
+function CatigoryHero(props) {
   return (
-    <div>CatigoryHero</div>
+    <div className='catigoryHero'>
+      {props.pages}
+    </div>
   )
 }
 

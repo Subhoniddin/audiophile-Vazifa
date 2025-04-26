@@ -2,6 +2,8 @@
     background-color: var(--black);
 }
 .header-dark {
-    background-color: var(--dark);
+    height: 100%;
+    background-image: url(../../assets/home/desktop/image-hero.jpg);
+    background-size: contain;
 }
 

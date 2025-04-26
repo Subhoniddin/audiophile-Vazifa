@@ -43,11 +43,24 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Manrope", "Arial", sans-serif;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
 }
 
 .container {
   max-width: 1110px;
   margin: 0 auto;
+  
+}
+.h-full {
+  height: 100%;
 }
