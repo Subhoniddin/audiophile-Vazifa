@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+}
+
+.nav .nav-logo {
+    width: 143px;
+    height: 25px;
+    color: var(--white);
+}
+
+.nav > .nav-list {
+    display: flex;
+    gap: 34px;
+}
+
+.nav .nav-list > li {
+    list-style-type: none;
+}
+.nav .nav-list > li a {
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.nav > .nav-cart {
+    width: 23px;
+    height: 20px;
+}
+
+
+.header .underLine {
+   width: 100%;
+   height: 1px;
+   background: red;
+}

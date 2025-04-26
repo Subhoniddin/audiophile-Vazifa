@@ -1,0 +1,53 @@
+:root {
+  --orange: #d87d4a;
+  --black10: #101010;
+  --dark: #0E0E0E;
+  --gray: #f1f1f1;
+  --light-gray: #fafafa;
+  --light-orange: #fbaf85;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+/* fonts */
+@font-face {
+  font-family: 'Manrope';
+  src: url('./assets/fonts/Manrope-Bold.woff2') format('woff2'),
+      url('./assets/fonts/Manrope-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('./assets/fonts/Manrope-Regular.woff2') format('woff2'),
+      url('./assets/fonts/Manrope-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('./assets/fonts/Manrope-Medium.woff2') format('woff2'),
+      url('./assets/fonts/Manrope-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", "Arial", sans-serif;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
