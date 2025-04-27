@@ -1,3 +1,11 @@
 .catigoryHero {
     color: var(--white);
 }
+.catigoryHero .title {
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 1.43px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 6rem;
+}

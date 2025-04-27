@@ -8,7 +8,7 @@ function Header(props ) {
   return (
     <header className={props.bgColor}>
        <div className='container h-full'>
-          <Navbar/>
+          <Navbar underLine='underLine' cart={true}/>
           {props.children}
        </div>
     </header>

@@ -3,7 +3,7 @@ import './catigoryHero.css'
 function CatigoryHero(props) {
   return (
     <div className='catigoryHero'>
-      {props.pages}
+      <h1 className='title'>{props.pages}</h1>
     </div>
   )
 }

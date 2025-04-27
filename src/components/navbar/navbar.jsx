@@ -3,7 +3,7 @@ import logoImg from '../../assets/home/desktop/audiophile 2.png'
 import cart from '../../assets/shared/desktop/icon-cart.svg'
 import { NavLink } from 'react-router-dom'
 
-function Navbar() {
+function Navbar(props) {
   return (
     <>
         <div className='container'>
@@ -15,9 +15,9 @@ function Navbar() {
                     <li><NavLink to="/speaker">SPEAKERS</NavLink></li>
                     <li><NavLink to="/earphones">EARPHONES</NavLink></li>
                 </ul>
-                <img className='nav-cart' src={cart} alt="cart" />
+                {props.cart && <img className='nav-cart' src={cart} alt="cart"/>}
             </div>
-            <div className='underLine'></div>
+            <div className={props.underLine}></div>
         </div>
     </>
   )

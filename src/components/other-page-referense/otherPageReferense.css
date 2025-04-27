@@ -1,0 +1,38 @@
+.otherPages {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin-top: 12.5rem;
+   padding-bottom: 3rem;
+   gap: 30px;
+}
+
+.otherPages .card{
+    width: 350px;
+    height: 204px;
+    background-color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+.otherPages .card .cardTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.otherPages .card .cardTitle .title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1.29px;
+    color: var(--black);
+}
+
+.otherPages .card > img {
+    position: absolute;
+    top: -25%;
+    max-height: 160px;
+}

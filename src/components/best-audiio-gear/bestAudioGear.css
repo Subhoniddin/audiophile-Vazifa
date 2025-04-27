@@ -1,0 +1,30 @@
+.bestAudioGear {
+    display: flex;
+    align-items: center;
+    gap: 7.8rem;
+    margin: 12.5rem auto;
+}
+
+.bestAudioGear-info {
+    max-width: 445px;
+}
+
+.bestAudioGear .bestAudioGear-info .title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.43px;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 2rem;
+}
+.title span.best{
+    color: var(--orange);
+}
+.bestAudioGear .bestAudioGear-info .descr{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--black);
+    opacity: 50%;
+}

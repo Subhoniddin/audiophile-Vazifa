@@ -1,0 +1,35 @@
+.footer {
+    background: var(--black10);
+    padding: 2rem 0;
+}
+
+.footer-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-body .footer-info {
+    width: 540px;
+    color: var(--white);
+    opacity: 50%;
+}
+.footer-body .social-media {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-info > p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.footer-info .descr {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.footer-info .copyright {
+    margin-top: 56px;
+    font-weight: 700;
+}
