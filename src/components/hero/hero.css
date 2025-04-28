@@ -1,8 +1,8 @@
 .hero {
     margin-top: 9rem;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 
 .hero .hero-info {
@@ -41,3 +41,20 @@
     opacity: 75%;
 }
   
+@media (min-width: 576px)  {
+    
+}
+
+@media (min-width: 768px)  {
+    
+}
+
+@media (min-width: 1200px)  {
+    .hero {
+        margin-top: 9rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+}

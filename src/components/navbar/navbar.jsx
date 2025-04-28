@@ -1,14 +1,19 @@
 import './navbar.css'
+
+// images
 import logoImg from '../../assets/home/desktop/audiophile 2.png'
 import cart from '../../assets/shared/desktop/icon-cart.svg'
-import { NavLink } from 'react-router-dom'
+import hamburger from '../../assets/shared/tablet/icon-hamburger.svg'
+
+import { Link, NavLink } from 'react-router-dom'
 
 function Navbar(props) {
-  return (
-    <>
-        <div className='container'>
+  return <div className='container'>
           <div className='nav'>
-                <img src={logoImg} alt="logo" />
+                <div className='menu-logo'>
+                  <img className='hamburger-menu' src={hamburger} alt="menu" />
+                  <Link to='/'><img src={logoImg} alt="logo" /></Link>
+                </div>
                 <ul className='nav-list'>
                     <li><NavLink to="/">HOME</NavLink></li>
                     <li><NavLink to="/headphones">HEADPHONES</NavLink></li>
@@ -19,8 +24,6 @@ function Navbar(props) {
             </div>
             <div className={props.underLine}></div>
         </div>
-    </>
-  )
 }
 
 export default Navbar

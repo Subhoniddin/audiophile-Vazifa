@@ -8,11 +8,10 @@ function Product({info:{isNew, title, descr}, img: {imgSrc, right, alt}}) {
                       {isNew && <div className='condition'>NEW PRODUCT</div>}
                       <h1 className='title'>{title}</h1>
                       <p className='descr'>{descr}</p>
-                      <Button btnClass='btnOrange' name='See Product'/>
+                      <Button btnClass='btn btnOrange' name='See Product'/>
                   </div>
               {right && <img src={imgSrc} alt={alt} />}
           </div>
- 
 }
 
 export default Product

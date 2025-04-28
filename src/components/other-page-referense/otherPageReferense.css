@@ -1,14 +1,13 @@
 .otherPages {
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   margin-top: 12.5rem;
+   grid-template-columns: 1fr;
+   margin-top: 5rem;
    padding-bottom: 3rem;
-   gap: 30px;
+   gap: 4rem;
 }
 
 .otherPages .card{
-    width: 350px;
-    height: 204px;
+    height: 165px;
     background-color: var(--gray);
     display: flex;
     flex-direction: column;
@@ -34,5 +33,34 @@
 .otherPages .card > img {
     position: absolute;
     top: -25%;
-    max-height: 160px;
+    max-height: 104px;
+}
+
+@media (min-width: 768px)  {
+    .otherPages {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 12.5rem;
+        padding-bottom: 3rem;
+        gap: 30px;
+     }
+    
+}
+
+@media (min-width: 1200px)  {
+    .otherPages .card{
+        width: 350px;
+        height: 204px;
+        background-color: var(--gray);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+    }
+    .otherPages .card > img {
+        position: absolute;
+        top: -25%;
+        max-height: 160px;
+    }
 }

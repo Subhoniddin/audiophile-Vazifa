@@ -3,7 +3,43 @@
 }
 .header-dark {
     height: 100%;
-    background-image: url(../../assets/home/desktop/image-hero.jpg);
-    background-size: contain;
+    background-image: url(../../assets/home/mobile/image-header.jpg);
+    background-size: cover;
+}
+.nav ul.nav-list {
+    display: none;
+}
+
+.menu-logo {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+.hamburger-menu {
+    display: flex;
+    width: 16px;
+    height: 16px;
+}
+
+@media (min-width: 768px)  {
+    .header-dark {
+        height: 100%;
+        background-image: url(../../assets/home/tablet/image-header.jpg);
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1200px)  {
+    .header-dark {
+        height: 100%;
+        background-image: url(../../assets/home/desktop/image-hero.jpg);
+        background-size: contain;
+    }
+    .nav ul.nav-list {
+        display: flex;
+    }
+    .hamburger-menu {
+        display: none;
+    }
 }
 

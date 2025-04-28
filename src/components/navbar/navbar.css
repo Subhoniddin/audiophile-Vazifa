@@ -20,14 +20,19 @@
 .nav .nav-list > li {
     list-style-type: none;
 }
+
 .nav .nav-list > li a {
-    font-family: Manrope;
     font-weight: 700;
     font-size: 13px;
     line-height: 25px;
     letter-spacing: 2px;
     text-decoration: none;
     color: var(--white);
+    transition: all 0.3s;
+
+}
+.nav .nav-list > li:hover a {
+    color: var(--orange);
 }
 
 .nav > .nav-cart {

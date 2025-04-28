@@ -1,7 +1,7 @@
 :root {
   --orange: #d87d4a;
   --black10: #101010;
-  --dark: #0E0E0E;
+  --gray-400: #4C4C4C;
   --gray: #f1f1f1;
   --light-gray: #fafafa;
   --light-orange: #fbaf85;
@@ -59,8 +59,26 @@ body {
 .container {
   max-width: 1110px;
   margin: 0 auto;
-  
+  padding: 0 1.5rem;
 }
+
 .h-full {
   height: 100%;
+}
+
+
+@media (min-width: 576px)  {
+ 
+}
+
+@media (min-width: 768px)  {
+  .container {
+    padding: 0 3rem;
+  }
+}
+
+@media (min-width: 1200px)  {
+  .container {
+    padding: 0;
+  }
 }

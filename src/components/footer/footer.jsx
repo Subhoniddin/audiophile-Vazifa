@@ -3,6 +3,11 @@ import './footer.css'
 import facebook from '../../assets/shared/desktop/icon-facebook.svg'
 import twitter from '../../assets/shared/desktop/icon-twitter.svg'
 import instagram from '../../assets/shared/desktop/icon-instagram.svg'
+
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
 function Footer() {
   return <>
         <footer id='footer' className='footer'>
@@ -13,9 +18,9 @@ function Footer() {
                   <p className='copyright'>Copyright 2021. All Rights Reserved</p>
                 </div>
                 <div className='social-media'>
-                    <img width={24} height={24} src={facebook} alt="facebook" />
-                    <img width={24} height={24} src={twitter} alt="twitter" />
-                    <img width={24} height={24} src={instagram} alt="instagram" />
+                    <FaFacebookSquare className='facebook'/>
+                    <FaTwitter className='twitter'/>
+                    <FaInstagram className='instagram'/>
                 </div>
             </div>
         </footer>

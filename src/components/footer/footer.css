@@ -33,3 +33,13 @@
     margin-top: 56px;
     font-weight: 700;
 }
+.social-media > *{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    color: var(--white);
+    transition: all 0.3s;
+}
+.social-media > *:hover {
+    color: var(--orange);
+}

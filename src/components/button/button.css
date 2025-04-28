@@ -1,5 +1,5 @@
 
-.btnOrange {
+.btn {
     width: 160px;
     height: 48px;
     font-weight: 700;
@@ -8,9 +8,17 @@
     letter-spacing: 1px;
     border: none;
     border-radius: 0.2rem;
-    background: var(--orange);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btnOrange {
+    background-color: var(--orange);
     color: var(--white);
     margin-top: 2.5rem;
+}
+.btnOrange:hover {
+   background-color: var(--light-orange);
 }
 
 .shopBtn {
@@ -21,8 +29,33 @@
     letter-spacing: 1px;
     color: var(--black);
     opacity: 50%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.shopBtn:hover {
+    color: var(--orange);
+    opacity: 100%;
 }
 
 .shopBtn img {
     margin-left: 13px;
+}
+
+.btnDark {
+    background-color: var(--black);
+    color: var(--white);
+    margin-top: 40px;
+}
+.btnDark:hover {
+    background-color: var(--gray-400);
+    
+}
+
+.btnTransparent {
+    border: 1px solid var(--black);
+    margin-top: 2rem;
+}
+.btnTransparent:hover {
+    background-color: var(--black);
+    color: var(--white);
 }
