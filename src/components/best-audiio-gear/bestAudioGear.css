@@ -1,12 +1,16 @@
 .bestAudioGear {
-    display: flex;
-    align-items: center;
-    gap: 7.8rem;
     margin: 12.5rem auto;
+}
+.bestAudioGear .mobileImg {
+    max-width: 100%;
+    height: auto;
+}
+.bestAudioGear .tabletImg, .bestAudioGear .desktopImg {
+    display: none;
 }
 
 .bestAudioGear-info {
-    max-width: 445px;
+    text-align: center;
 }
 
 .bestAudioGear .bestAudioGear-info .title{
@@ -27,4 +31,22 @@
     line-height: 25px;
     color: var(--black);
     opacity: 50%;
+}
+
+@media (min-width: 768px)  {
+    .bestAudioGear {
+        display: flex;
+        align-items: center;
+        gap: 7.8rem;
+        margin: 12.5rem auto;
+    }
+    .bestAudioGear .mobileImg, .bestAudioGear .desktopImg {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px)  {
+    .bestAudioGear .tabletImg, .bestAudioGear .mobileImg {
+        display: none;
+    }
 }

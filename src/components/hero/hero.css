@@ -40,10 +40,6 @@
     color: var(--white);
     opacity: 75%;
 }
-  
-@media (min-width: 576px)  {
-    
-}
 
 @media (min-width: 768px)  {
     
